@@ -1,0 +1,45 @@
+Atividades de Busca Linear
+Atividade 1 — Busca em vetor simples
+
+Enunciado:
+Crie um programa em C# que:
+Peça ao usuário para digitar 5 números inteiros e armazene-os em um vetor.
+Peça em seguida um número para buscar.
+Use busca linear para verificar se o número está no vetor e informe a posição ou diga que não foi encontrado.
+
+Dica:
+Use um for para percorrer o vetor e compare elemento por elemento.
+
+Atividade 2 — Contar ocorrências
+
+Faça um programa que leia 10 números inteiros e utilize busca linear para contar quantas vezes um número digitado pelo usuário aparece no vetor.
+
+Exemplo:
+Entrada: [2, 5, 3, 2, 7, 2, 8, 9, 2, 1] e número buscado 2.
+Saída: O número 2 aparece 4 vezes.
+
+
+
+Atividades de Busca Binária
+Atividade 3 — Busca binária em vetor ordenado
+
+Crie um vetor ordenado de 10 números inteiros (exemplo: {2, 5, 7, 10, 13, 18, 21, 25, 30, 33}).
+Peça ao usuário um número e implemente uma busca binária iterativa para descobrir se ele está no vetor.
+Mostre a posição ou diga que o número não foi encontrado.
+
+Dica:
+Use as variáveis inicio, fim e meio e atualize os limites conforme o número buscado.
+
+Atividade 4 — Busca binária recursiva
+
+
+Implemente uma função recursiva chamada BuscaBinariaRecursiva que receba:
+um vetor ordenado de inteiros,
+o número a ser buscado,
+os índices inicio e fim.
+
+A função deve retornar o índice do número (caso exista) ou -1 (caso não exista).
+No Main(), teste a função com diferentes números.
+
+Exemplo de assinatura:
+static int BuscaBinariaRecursiva(int[] vetor, int valor, int inicio, int fim)
